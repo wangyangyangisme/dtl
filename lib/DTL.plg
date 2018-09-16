@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DTL - Win32 Unicode Debug STLPort--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MLd /Gm /GR /GX /ZI /Od /I "." /I "C:\stlport" /I "C:\stlport\old_hp" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_UNICODE" /D "UNICODE" /D "__STL_USE_OWN_NAMESPACE" /D "__STL_USE_NAMESPACES" /D "__STL_USE_NEW_C_HEADERS" /FR"DTL___Win32_Unicode_Debug_STLPort/" /Fp"DTL___Win32_Unicode_Debug_STLPort/DTL.pch" /YX /Fo"DTL___Win32_Unicode_Debug_STLPort/" /Fd"DTL___Win32_Unicode_Debug_STLPort/" /FD /GZ /c 
+"C:\dtl\dtl\lib\bind_basics.cpp"
+"C:\dtl\dtl\lib\BoundIO.cpp"
+"C:\dtl\dtl\lib\clib_fwd.cpp"
+"C:\dtl\dtl\lib\CountedPtr.cpp"
+"C:\dtl\dtl\lib\date_util.cpp"
+"C:\dtl\dtl\lib\DB_Base.cpp"
+"C:\dtl\dtl\lib\DBConnection.cpp"
+"C:\dtl\dtl\lib\DBException.cpp"
+"C:\dtl\dtl\lib\DBStmt.cpp"
+"C:\dtl\dtl\lib\DBView.cpp"
+"C:\dtl\dtl\lib\dtl_base_types.cpp"
+"C:\dtl\dtl\lib\LocalBCA.cpp"
+"C:\dtl\dtl\lib\RootException.cpp"
+"C:\dtl\dtl\lib\string_util.cpp"
+"C:\dtl\dtl\lib\validate.cpp"
+"C:\dtl\dtl\lib\variant_row.cpp"
+"C:\dtl\dtl\lib\VariantException.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP59.tmp" 
+Creating temporary file "C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+/nologo /out:"DTL___Win32_Unicode_Debug_STLPort\DTL.lib" 
+.\DTL___Win32_Unicode_Debug_STLPort\bind_basics.obj
+.\DTL___Win32_Unicode_Debug_STLPort\BoundIO.obj
+.\DTL___Win32_Unicode_Debug_STLPort\clib_fwd.obj
+.\DTL___Win32_Unicode_Debug_STLPort\CountedPtr.obj
+.\DTL___Win32_Unicode_Debug_STLPort\date_util.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DB_Base.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBConnection.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBException.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBStmt.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBView.obj
+.\DTL___Win32_Unicode_Debug_STLPort\dtl_base_types.obj
+.\DTL___Win32_Unicode_Debug_STLPort\LocalBCA.obj
+.\DTL___Win32_Unicode_Debug_STLPort\RootException.obj
+.\DTL___Win32_Unicode_Debug_STLPort\string_util.obj
+.\DTL___Win32_Unicode_Debug_STLPort\validate.obj
+.\DTL___Win32_Unicode_Debug_STLPort\variant_row.obj
+.\DTL___Win32_Unicode_Debug_STLPort\VariantException.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP5A.tmp"
+<h3>Output Window</h3>
+Compiling...
+bind_basics.cpp
+BoundIO.cpp
+clib_fwd.cpp
+CountedPtr.cpp
+date_util.cpp
+DB_Base.cpp
+DBConnection.cpp
+DBException.cpp
+DBStmt.cpp
+DBView.cpp
+dtl_base_types.cpp
+LocalBCA.cpp
+RootException.cpp
+string_util.cpp
+validate.cpp
+variant_row.cpp
+c:\dtl\dtl\lib\variant_row.cpp(1135) : error C2440: 'static_cast' : cannot convert from 'const class dtl::dtl_variant_t' to '__int64'
+        Ambiguous user-defined-conversion
+VariantException.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+DTL.lib - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

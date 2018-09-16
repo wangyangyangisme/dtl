@@ -1,0 +1,137 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DTL - Win32 Unicode Debug STLPort--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /MLd /Gm /GR /GX /ZI /Od /I "." /I "C:\stlport" /I "C:\stlport\old_hp" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_UNICODE" /D "UNICODE" /D "__STL_USE_OWN_NAMESPACE" /D "__STL_USE_NAMESPACES" /D "__STL_USE_NEW_C_HEADERS" /FR"DTL___Win32_Unicode_Debug_STLPort/" /Fp"DTL___Win32_Unicode_Debug_STLPort/DTL.pch" /YX /Fo"DTL___Win32_Unicode_Debug_STLPort/" /Fd"DTL___Win32_Unicode_Debug_STLPort/" /FD /GZ /c 
+"C:\dtl\dtl\lib\bind_basics.cpp"
+"C:\dtl\dtl\lib\BoundIO.cpp"
+"C:\dtl\dtl\lib\clib_fwd.cpp"
+"C:\dtl\dtl\lib\CountedPtr.cpp"
+"C:\dtl\dtl\lib\date_util.cpp"
+"C:\dtl\dtl\lib\DB_Base.cpp"
+"C:\dtl\dtl\lib\DBConnection.cpp"
+"C:\dtl\dtl\lib\DBException.cpp"
+"C:\dtl\dtl\lib\DBStmt.cpp"
+"C:\dtl\dtl\lib\DBView.cpp"
+"C:\dtl\dtl\lib\dtl_base_types.cpp"
+"C:\dtl\dtl\lib\LocalBCA.cpp"
+"C:\dtl\dtl\lib\RootException.cpp"
+"C:\dtl\dtl\lib\string_util.cpp"
+"C:\dtl\dtl\lib\validate.cpp"
+"C:\dtl\dtl\lib\variant_row.cpp"
+"C:\dtl\dtl\lib\VariantException.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP138.tmp" 
+Creating temporary file "C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /out:"DTL___Win32_Unicode_Debug_STLPort\DTL.lib" 
+.\DTL___Win32_Unicode_Debug_STLPort\bind_basics.obj
+.\DTL___Win32_Unicode_Debug_STLPort\BoundIO.obj
+.\DTL___Win32_Unicode_Debug_STLPort\clib_fwd.obj
+.\DTL___Win32_Unicode_Debug_STLPort\CountedPtr.obj
+.\DTL___Win32_Unicode_Debug_STLPort\date_util.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DB_Base.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBConnection.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBException.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBStmt.obj
+.\DTL___Win32_Unicode_Debug_STLPort\DBView.obj
+.\DTL___Win32_Unicode_Debug_STLPort\dtl_base_types.obj
+.\DTL___Win32_Unicode_Debug_STLPort\LocalBCA.obj
+.\DTL___Win32_Unicode_Debug_STLPort\RootException.obj
+.\DTL___Win32_Unicode_Debug_STLPort\string_util.obj
+.\DTL___Win32_Unicode_Debug_STLPort\validate.obj
+.\DTL___Win32_Unicode_Debug_STLPort\variant_row.obj
+.\DTL___Win32_Unicode_Debug_STLPort\VariantException.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP139.tmp"
+<h3>Output Window</h3>
+Compiling...
+bind_basics.cpp
+BoundIO.cpp
+clib_fwd.cpp
+CountedPtr.cpp
+date_util.cpp
+DB_Base.cpp
+DBConnection.cpp
+DBException.cpp
+DBStmt.cpp
+DBView.cpp
+dtl_base_types.cpp
+LocalBCA.cpp
+RootException.cpp
+string_util.cpp
+validate.cpp
+variant_row.cpp
+VariantException.cpp
+Creating library...
+<h3>
+--------------------Configuration: tests - Win32 Unicode Debug STLPort--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP13B.tmp" with contents
+[
+/nologo /MLd /Gm /GR /GX /ZI /Od /I "../lib" /I "C:\stlport" /I "C:\stlport\old_hp" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_UNICODE" /D "UNICODE" /D "__STL_USE_OWN_NAMESPACE" /D "__STL_USE_NAMESPACES" /D "__STL_USE_NEW_C_HEADERS" /FR"tests___Win32_Unicode_Debug_STLPort/" /Fp"tests___Win32_Unicode_Debug_STLPort/tests.pch" /YX /Fo"tests___Win32_Unicode_Debug_STLPort/" /Fd"tests___Win32_Unicode_Debug_STLPort/" /FD /GZ /Zm400 /c 
+"C:\dtl\dtl\tests\Example.cpp"
+"C:\dtl\dtl\tests\IterSemanticsTest.cpp"
+"C:\dtl\dtl\tests\JoinExample.cpp"
+"C:\dtl\dtl\tests\main.cpp"
+"C:\dtl\dtl\tests\print_util.cpp"
+"C:\dtl\dtl\tests\test_dtl_date.cpp"
+"C:\dtl\dtl\tests\test_dtl_posix_time.cpp"
+"C:\dtl\dtl\tests\test_dtl_time.cpp"
+"C:\dtl\dtl\tests\test_iterators.cpp"
+"C:\dtl\dtl\tests\test_join.cpp"
+"C:\dtl\dtl\tests\test_nullable.cpp"
+"C:\dtl\dtl\tests\TestExceptions.cpp"
+"C:\dtl\dtl\tests\tests.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP13B.tmp" 
+Creating temporary file "C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP13C.tmp" with contents
+[
+../lib/DTL___Win32_Unicode_Debug_STLPort/DTL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"tests___Win32_Unicode_Debug_STLPort/tests.pdb" /debug /machine:I386 /out:"tests___Win32_Unicode_Debug_STLPort/tests.exe" /pdbtype:sept 
+.\tests___Win32_Unicode_Debug_STLPort\Example.obj
+.\tests___Win32_Unicode_Debug_STLPort\IterSemanticsTest.obj
+.\tests___Win32_Unicode_Debug_STLPort\JoinExample.obj
+.\tests___Win32_Unicode_Debug_STLPort\main.obj
+.\tests___Win32_Unicode_Debug_STLPort\print_util.obj
+.\tests___Win32_Unicode_Debug_STLPort\test_dtl_date.obj
+.\tests___Win32_Unicode_Debug_STLPort\test_dtl_posix_time.obj
+.\tests___Win32_Unicode_Debug_STLPort\test_dtl_time.obj
+.\tests___Win32_Unicode_Debug_STLPort\test_iterators.obj
+.\tests___Win32_Unicode_Debug_STLPort\test_join.obj
+.\tests___Win32_Unicode_Debug_STLPort\test_nullable.obj
+.\tests___Win32_Unicode_Debug_STLPort\TestExceptions.obj
+.\tests___Win32_Unicode_Debug_STLPort\tests.obj
+\dtl\dtl\lib\DTL___Win32_Unicode_Debug_STLPort\DTL.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\cjoy\LOCALS~1\Temp\RSP13C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Example.cpp
+IterSemanticsTest.cpp
+JoinExample.cpp
+main.cpp
+print_util.cpp
+test_dtl_date.cpp
+test_dtl_posix_time.cpp
+test_dtl_time.cpp
+test_iterators.cpp
+test_join.cpp
+test_nullable.cpp
+TestExceptions.cpp
+tests.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+tests.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
